@@ -7,7 +7,6 @@
     tools:context=".ui.auth.RegisterFragment"
     android:fillViewport="true">
 
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
@@ -30,10 +29,12 @@
         </com.google.android.material.appbar.MaterialToolbar>
 
         <LinearLayout
-            android:id="@id/linearLayout2"
+            android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="25dp">
+
 
         <EditText
             android:layout_width="match_parent"
@@ -80,7 +81,7 @@
             android:layout_gravity="center"
             android:visibility="invisible"
             tools:visibility="visible"/>
-
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
